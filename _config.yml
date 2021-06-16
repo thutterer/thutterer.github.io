@@ -17,28 +17,30 @@ defaults:
       layout: "post"
 
 projects:
-  sort_by: pushed
+  sort_by: stars
   # sort_by options:
   #   - pushed
   #   - stars
-  limit: 9
+  limit: 6
   exclude:
-    archived: false
+    archived: true
     forks: true
     projects:
-    # - repo-name
+    - simplebar-rails
+    - eos-icons-rails
+    - colorcover
 
-# social_media:
+social_media:
   # behance: your_username
   # dribbble: your_username
   # facebook: your_username
   # hackerrank: your_username
   # instagram: your_username
   # keybase: your_username
-  # linkedin: your_username
+  linkedin: thomas-hutterer-b82156101
   # mastodon: your_username
   # medium: your_username
-  # stackoverflow: your_user_id
+  stackoverflow: 3449673
   # telegram: your_username
   # twitter: your_username
   # unsplash: your_username
