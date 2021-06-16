@@ -47,6 +47,10 @@ projects:
   # youtube: your_username
 
 topics:
+  - name: Git
+    web_url: https://github.com/topics/git
+    image_url: https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/git/git.png
+
   - name: Ruby
     web_url: https://github.com/topics/ruby
     image_url: https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/ruby/ruby.png
@@ -58,3 +62,11 @@ topics:
   - name: Sass
     web_url: https://github.com/topics/sass
     image_url: https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/sass/sass.png
+    
+  - name: Terminal
+    web_url: https://github.com/topics/terminal
+    image_url: https://raw.githubusercontent.com/github/explore/d92924b1d925bb134e308bd29c9de6c302ed3beb/topics/terminal/terminal.png
+    
+  - name: Vue
+    web_url: https://github.com/topics/terminal
+    image_url: https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/vue/vue.png
