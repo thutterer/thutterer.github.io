@@ -3,7 +3,7 @@
     </footer>
 
     <script>
-      document.addEventListener('scroll', function(e) {
+      function fadeBg () {
         var brightness = window.scrollY / document.body.clientHeight + 0.5
         brightness = brightness > 1 ? 1 : brightness
 
@@ -12,7 +12,10 @@
 
         document.body.style["backdrop-filter"] = "blur(" + blur + "px) brightness(" + brightness + ")"
         document.body.style["-webkit-backdrop-filter"] = "blur(" + blur + "px) brightness(" + brightness + ")"
-      })
+      }
+      
+      document.addEventListener('scroll', fadeBg)
+      fadeBg()
     </script>
   </body>
 </html>
