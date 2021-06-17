@@ -1,9 +1,10 @@
     <footer class="text-center f6 text-gray">
       Photo by <a href="https://unsplash.com/@m20m20?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">m20 m20</a> on <a href="https://unsplash.com/s/photos/thinkpad?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
     </footer>
+
     <script>
       document.addEventListener('scroll', function(e) {
-        var brightness = window.scrollY / window.outerHeight + 0.4
+        var brightness = window.scrollY / document.body.clientHeight + 0.5
         brightness = brightness > 1 ? 1 : brightness
 
         var blur = parseInt((1 - brightness) * 100) - 5

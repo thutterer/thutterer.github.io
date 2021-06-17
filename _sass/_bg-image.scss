@@ -6,12 +6,16 @@ body {
   background-color: #1f1f1f;
 
   // get updated by JS on scroll
-  -webkit-backdrop-filter: blur(95px) brightness(0.4);
-  backdrop-filter: blur(95px) brightness(0.4);
+  -webkit-backdrop-filter: blur(95px) brightness(0.5);
+  backdrop-filter: blur(95px) brightness(0.5);
 }
 
 .github-component {
   -webkit-backdrop-filter: blur(8px);
   backdrop-filter: blur(8px);
   opacity: 0.85;
+}
+
+footer {
+  margin-top: 80vh;
 }
